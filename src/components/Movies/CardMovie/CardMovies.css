@@ -1,0 +1,44 @@
+.CardMovies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 20rem;
+    color:var(--color-light);
+    background-color: var(--color-darkest);
+    margin: var( --margin-primary);
+    height: 50vh;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.imgCard{
+    width: 100%;
+    height: 30vh;
+}
+.deleteIc{
+    color: var( --color-primary);
+    margin: calc(var(--distance-primary)/4)
+}
+.movie{
+    overflow: hidden;
+    position: relative;
+}
+.m-overviem{
+    max-height: 100%;
+    color:var(--color-light);
+    background-color: var(--color-darkest);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    transform: translateY(100%);
+    transition: 0.3s ease-in-out;
+  }
+  .movie:hover .m-overviem{
+    transform: translateY(0%);
+  }
+  

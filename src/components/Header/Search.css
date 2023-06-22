@@ -1,0 +1,29 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    padding: calc(var(--distance-primary)/4);
+    background-color: var(--color-darkest);
+    border-radius:var(--border-radius-primary) ;
+    color: var( --color-light);
+}
+.barSearch{
+    display: flex;
+}
+
+.formInput{
+    width: calc(var(--distance-primary)*10);
+    height: 10vh;
+    border-radius: var(--border-radius-primary);
+    background-color: var(--color-dark);
+    color: var( --color-light);
+}
+.button{
+    width: calc(var(--distance-primary)*5);
+    height: 10vh;
+    border-radius: var(--border-radius-primary);
+    background-color: var(--color-dark);
+    color: var( --color-primary);
+    margin-left: calc(var(--distance-primary)/5);
+    font-family: var(--font-family-primary);
+    font-weight: 900;
+}

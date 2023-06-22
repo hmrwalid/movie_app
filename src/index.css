@@ -1,0 +1,11 @@
+.app{
+   display: flex;
+   justify-content: center; 
+   flex-direction: column;
+}
+.app h3{
+    color:var(--color-primary) ;
+    font-weight: var(--font-weight-bold) ;
+    
+}
+
