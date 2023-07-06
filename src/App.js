@@ -17,6 +17,7 @@ function App() {
       setsearchByRate={setsearchByRate}
       />
       <Movies movieList ={movieList} 
+      setMovieLlist= {setMovieLlist}
       searchByNyame= {searchByNyame}
       searchByRate={searchByRate}
       />
